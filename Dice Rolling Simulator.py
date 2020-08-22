@@ -44,7 +44,7 @@ class MainWindow(QWidget):
         self.timer_label.close()
 
         self.simulation_dice = QLabel(self)
-        self.simulation_dice.setPixmap(QPixmap("Dice-Images\\dice_1.png"))
+        self.simulation_dice.setPixmap(QPixmap("dice_1.png"))
         self.simulation_dice.move(250, 130)
         self.simulation_dice.show()
 
@@ -57,12 +57,12 @@ class MainWindow(QWidget):
 
     def roll_dice(self):
 
-        dice_1 = "Dice-Images\\dice_1.png"
-        dice_2 = "Dice-Images\\dice_2.png"
-        dice_3 = "Dice-Images\\dice_3.png"
-        dice_4 = "Dice-Images\\dice_4.png"
-        dice_5 = "Dice-Images\\dice_5.png"
-        dice_6 = "Dice-Images\\dice_6.png"
+        dice_1 = "dice_1.png"
+        dice_2 = "dice_2.png"
+        dice_3 = "dice_3.png"
+        dice_4 = "dice_4.png"
+        dice_5 = "dice_5.png"
+        dice_6 = "dice_6.png"
 
 
         random_dice = random.choice([dice_1, dice_2, dice_3, dice_4, dice_5, dice_6])
