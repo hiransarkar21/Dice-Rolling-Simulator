@@ -20,7 +20,7 @@ class MainWindow(QWidget):
 
         self.setFixedHeight(600)
         self.setFixedWidth(600)
-        self.setIcon(QIcon("icon.png"))
+        self.setWindowTitle("Dice Rolling Simulator")
 
     def user_interface(self):
 
